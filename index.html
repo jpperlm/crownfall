@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crownfall — Support</title>
+  <meta name="description" content="Support, FAQ, and privacy information for Crownfall, a cooperative card game for iPhone and iPad.">
+  <style>
+    :root {
+      --regal: #b8282f;
+      --regal-dark: #861a20;
+      --parchment: #f1e8d4;
+      --parchment-deep: #e0d2b3;
+      --ink: #1d1410;
+      --ink-soft: #4a3a30;
+      --rule: rgba(74, 58, 48, 0.25);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--parchment);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 40px;
+    }
+    .crown {
+      font-size: 44px;
+      color: var(--regal);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin: 0 0 6px;
+      letter-spacing: 0.5px;
+    }
+    .tagline {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      color: var(--ink-soft);
+      margin: 0;
+    }
+    h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--regal);
+      font-weight: 800;
+      margin: 40px 0 12px;
+    }
+    p, li { font-size: 16px; }
+    a { color: var(--regal); text-decoration: none; border-bottom: 1px solid currentColor; }
+    a:hover { color: var(--regal-dark); }
+    .lede {
+      font-size: 17px;
+      color: var(--ink-soft);
+      margin-top: 0;
+    }
+    .faq dt {
+      font-weight: 700;
+      margin-top: 18px;
+      color: var(--ink);
+    }
+    .faq dd {
+      margin: 4px 0 0;
+      color: var(--ink-soft);
+    }
+    .contact-card {
+      background: var(--parchment-deep);
+      border-radius: 4px;
+      padding: 18px 20px;
+      margin-top: 8px;
+    }
+    .contact-card a { font-weight: 600; }
+    footer {
+      text-align: center;
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--rule);
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="crown">♛</div>
+      <h1>Crownfall</h1>
+      <p class="tagline">Support &middot; FAQ &middot; Privacy</p>
+    </header>
+
+    <p class="lede">
+      Crownfall is a cooperative card game for iPhone and iPad. 1&ndash;4 champions take on the twelve royals using a single standard deck. Solo, pass-and-play, or multi-device over your local Wi-Fi.
+    </p>
+
+    <h2>Contact</h2>
+    <div class="contact-card">
+      Questions, bugs, or feedback &mdash; email
+      <a href="mailto:jasonpperlman@gmail.com">jasonpperlman@gmail.com</a>.
+      I read every message and try to reply within a few days.
+    </div>
+
+    <h2>Frequently Asked</h2>
+    <dl class="faq">
+      <dt>How do I learn the rules?</dt>
+      <dd>Tap the <strong>How to Play</strong> button in the top bar from the home screen. It walks through everything &mdash; setup, turn structure, suit powers, defending, jokers, and solo medals.</dd>
+
+      <dt>Can I play offline?</dt>
+      <dd>Yes. Solo and Pass &amp; Play work fully offline. Multi-device requires both devices on the same Wi-Fi network &mdash; no internet connection is used.</dd>
+
+      <dt>My friend's device isn't showing up when I try to join.</dt>
+      <dd>Both devices need to be on the same local Wi-Fi network, and Crownfall needs Local Network permission (you'll see the prompt the first time you try to host or join). On iOS, check Settings &rarr; Crownfall &rarr; Local Network.</dd>
+
+      <dt>How do I earn a gold medal in solo?</dt>
+      <dd>Win without using either of the two solo refill abilities. Silver = one refill used. Bronze = both refills used.</dd>
+
+      <dt>Where are my saved games?</dt>
+      <dd>Tap <strong>Past</strong> on the home screen. In-progress games and completed games both live there; completed games show your final outcome.</dd>
+
+      <dt>Will my stats reset if I clear my game history?</dt>
+      <dd>No. Lifetime stats are stored separately from individual game saves. Clearing recents only removes the per-game state files.</dd>
+
+      <dt>I found a bug.</dt>
+      <dd>Please email me with a short description &mdash; and if you can, your iOS version and device model. Screenshots help a lot.</dd>
+    </dl>
+
+    <h2>Privacy</h2>
+    <p>
+      Crownfall does not collect, transmit, or store any personal data. There are no accounts, no analytics, no advertising, and no third-party SDKs. All game data &mdash; saved games, lifetime stats, preferences &mdash; lives only on your device.
+    </p>
+    <p>
+      Multi-device play uses Apple's local networking (Bonjour and Network framework) to connect directly to other devices on the same Wi-Fi network. No game data passes through any server we operate.
+    </p>
+
+    <footer>
+      &copy; 2026 Jason Perlman &middot; Crownfall is an independent app
+    </footer>
+  </main>
+</body>
+</html>
